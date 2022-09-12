@@ -8,5 +8,6 @@ public class LoginTest extends BaseClass {
     public void LoginTest() throws InterruptedException {
         PageFactory pageFactory = null;
         pageFactory.getLoginPage().login();
+        pageFactory.getSystemPage().User();
     }
 }
