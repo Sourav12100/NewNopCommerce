@@ -8,13 +8,13 @@
         </classes>
     </test>
 
-<!--    <test name="Verify Configuration ">-->
-<!--        <parameter name="testRunId2" value="TCTC-2"/>-->
-<!--        <parameter name="browserName" value="chrome"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="Test.BaseClass"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Verify Configuration ">
+        <parameter name="testRunId2" value="TCTC-2"/>
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="Test.BaseClass"/>
+        </classes>
+    </test>
 
 </suite>
 
