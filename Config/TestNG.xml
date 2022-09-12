@@ -1,20 +1,28 @@
  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Cases" verbose="1" >
     <test name="Verify user is logged in">
-        <parameter name="testRunId1" value="TCTC-1"/>
+        <parameter name="testRunId1" value="TC_00"/>
         <parameter name="browserName" value="chrome"></parameter>
         <classes>
             <class name="Test.LoginTest"/>
         </classes>
     </test>
 
-<!--    <test name="Verify Configuration ">-->
-<!--        <parameter name="testRunId2" value="TCTC-2"/>-->
-<!--        <parameter name="browserName" value="chrome"></parameter>-->
-<!--        <classes>-->
-<!--            <class name="Test.BaseClass"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="System ">
+        <parameter name="testRunId2" value="TC_01"/>
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="Test.BaseClass"/>
+        </classes>
+    </test>
+
+    <test name="System Information">
+        <parameter name="testRunId3" value="TC_02"/>
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="Test.BaseClass"></class>
+        </classes>
+    </test>
 
 </suite>
 
